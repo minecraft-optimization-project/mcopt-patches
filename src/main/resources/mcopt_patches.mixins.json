@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.mcopt.patches.mixin",
+  "plugin": "org.mcopt.patches.PatchPlugin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "minecells.EntityFallResetMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

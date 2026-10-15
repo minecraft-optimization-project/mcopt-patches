@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "mcopt_patches",
+  "version": "${version}",
+  "name": "MCOpt Patches",
+  "description": "Runtime performance fixes for other mods, from the Minecraft Optimization Project. Each patch only applies when its target mod and version are present, and can be disabled in config/mcopt_patches.properties.",
+  "authors": ["Minecraft Optimization Project"],
+  "contact": { "sources": "https://github.com/minecraft-optimization-project/mcopt-patches" },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "main": ["org.mcopt.patches.McoptPatches"] },
+  "mixins": ["mcopt_patches.mixins.json"],
+  "depends": { "fabricloader": ">=0.15.0", "minecraft": "1.20.1" }
+}
